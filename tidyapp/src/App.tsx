@@ -35,11 +35,11 @@ function App() {
         <p className="text-neutral-800 text-lg text-center mt-5">
           A simple CLI tool to organize your folders and files.
         </p>
-        <div className="space-x-4 mt-3">
-          <button className="py-2 px-8 bg-neutral-900 rounded-md text-white hover:bg-neutral-800">
+        <div className="space-x-1 mt-3 flex flex-col justify-center sm:space-x-4 sm:flex-row sm:justify-center">
+          <button className="py-2 px-8 bg-neutral-900 rounded-md text-white hover:bg-neutral-800 sm:py-1 sm:px-8 sm:bg-neutral-900 sm:rounded-md sm:text-white sm:hover:bg-neutral-800">
             Npm Package
           </button>
-          <button className="py-2 px-8 border-2 rounded-md hover:bg-gray-100">Github</button>
+          <button className="py-2 px-8 border-2 rounded-md hover:bg-gray-100 mt-2 sm:py-2 sm:px-8 sm:border-2 sm:rounded-md sm:hover:bg-gray-100">Github</button>
         </div>
 
         <div className="w-full mt-28 flex flex-col gap-20">
