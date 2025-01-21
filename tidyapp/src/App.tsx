@@ -1,6 +1,5 @@
 import "./index.css";
 import { useState, useEffect } from "react";
-import { motion } from "motion/react";
 import { FolderCheck, Copy, MoveRight } from "lucide-react";
 import img from "./assets/woman.jpeg";
 
@@ -28,7 +27,7 @@ function App() {
   };
 
   return (
-    <motion.div className="h-full w-full pt-40">
+    <div className="h-full w-full pt-40">
       <div className="max-w-xl mx-auto flex flex-col items-center">
         <FolderCheck size={64} />
         <h1 className="font-bold text-5xl">Tidyup</h1>
@@ -134,7 +133,7 @@ function App() {
           </div>
         </div>
       </div>
-    </motion.div>
+    </.div>
   );
 }
 
