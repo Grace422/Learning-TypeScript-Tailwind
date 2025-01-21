@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="h-full w-full pt-40">
-      <div className="max-w-xl mx-auto flex flex-col items-center ml-8 mr-8 ">
+      <div className="max-w-xl mx-auto flex flex-col items-center ml-8 mr-8 sm:max-w-xl sm:mx-auto sm:flex sm:flex-col sm:items-center">
         <FolderCheck size={64} />
         <h1 className="font-bold text-5xl">Tidyup</h1>
         <p className="text-neutral-800 text-lg text-center mt-5">
